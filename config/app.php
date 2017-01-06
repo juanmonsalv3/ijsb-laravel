@@ -227,5 +227,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    
+    'school_name' => env( 'APP_SCHOOL_NAME', '' ),
 
 ];

@@ -18,5 +18,8 @@ Route::get('/', function () {
 
 Route::get('users', function()
 {
-    return 'Users!';
+    return View::make('users');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
