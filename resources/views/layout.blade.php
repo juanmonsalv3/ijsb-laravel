@@ -18,6 +18,7 @@
     <body>
         <nav class="navbar navbar-dark bg-primary">
             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+            
             <!-- Navbar content -->
             <div class="collapse navbar-toggleable-md" id="navbarResponsive">
                 <a class="navbar-brand" href="#">
@@ -26,7 +27,7 @@
                 </a>
                 <ul class="nav navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Estudiantes <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ url('/estudiantes') }}">Estudiantes <span class="sr-only">(current)</span></a>
                   </li>
                   </li>
                   <li class="nav-item dropdown">
